@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporary Email Generator - 1USEMAIL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temp Email Generator - 1USEMAIL</h1>
+        
+        <!-- Email Generator Section -->
+        <div class="email-generator">
+            <button id="generate-email">Generate Your Temporary Email</button>
+            <div id="generated-email"></div>
+            <div id="timer">Time Left: 10:00</div>
+        </div>
+
+        <!-- Inbox Section -->
+        <div class="inbox">
+            <h2>Inbox</h2>
+            <div id="inbox-messages"></div>
+        </div>
+
+        <!-- Extend Time Button (with Ad) -->
+        <button id="extend-time">Extend Time by 10 Minutes (Watch Ad)</button>
+        
+        <!-- Ad Modal (hidden by default) -->
+        <div id="ad-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Watch this ad to extend your time!</p>
+                <!-- Ad placeholder (replace with real ad later) -->
+                <div id="ad-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
